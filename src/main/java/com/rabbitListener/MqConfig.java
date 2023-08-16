@@ -32,5 +32,4 @@ public class MqConfig {
         simpleMessageListenerContainer.setMessageListener(new RabbitMqListener());
         return simpleMessageListenerContainer;
     }
-
 }
